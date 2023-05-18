@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Backyard</title>
+      {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<div class="gallery">
+		<a href="{% static 'images/bedroom1.jpeg' %}" title="Image 1">
+			<img src="{% static 'images/bedroom1.jpeg' %}" alt="Image 1">
+		</a>
+		<a href="{% static 'images/bedroom2.jpeg' %}" title="Image 2">
+			<img src="{% static 'images/bedroom2.jpeg' %}" alt="Image 2">
+		</a>
+		<a href="{% static 'images/bedroom3.jpeg' %}" title="Image 3">
+			<img src="{% static 'images/bedroom3.jpeg' %}" alt="Image 3">
+		</a>
+	</div>
+</body>
+</html>
